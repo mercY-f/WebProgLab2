@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Автомагазин - продажа автомобилей и запчастей">
+    <title>AutoShop - Премиум автомобили</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="top-bar-content">
+                <div class="search-container">
+                    <div class="search-box">
+                        <select>
+                            <option>Все категории</option>
+                            <option>Легковые</option>
+                            <option>Внедорожники</option>
+                            <option>Премиум</option>
+                        </select>
+                        <input type="text" placeholder="Поиск автомобилей...">
+                        <button>🔍</button>
+                    </div>
+                </div>
+                <div class="user-actions">
+                    <div class="cart-icon">🛒</div>
+                    <button class="account-btn">Мой аккаунт ▼</button>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="logo">🚗 AutoShop</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#men">Легковые</a></li>
+                <li><a href="#women">Внедорожники</a></li>
+                <li><a href="#kids">Премиум</a></li>
+                <li><a href="#accessories">Аксессуары</a></li>
+                <li><a href="#featured">Популярное</a></li>
+                <li><a href="#deals">Горячие предложения</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>ПРЕМИУМ <span class="highlight">АВТОМОБИЛИ</span></h1>
+                <p>Эксклюзивная коллекция лучших автомобилей мировых брендов</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-car.png" alt="Премиум автомобиль" class="hero-image-placeholder">
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Grid -->
+    <section class="category-section">
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="images/premium-category.png" alt="Премиум" class="category-image">
+                <div class="category-overlay">
+                    <div class="category-label">ГОРЯЧЕЕ ПРЕДЛОЖЕНИЕ</div>
+                    <div class="category-title">ДЛЯ ПРЕМИУМ</div>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="images/suv-category.png" alt="Внедорожники" class="category-image">
+                <div class="category-overlay">
+                    <div class="category-label">СКИДКА 30%</div>
+                    <div class="category-title">ВНЕДОРОЖНИКИ</div>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="images/compact-category.png" alt="Компактные" class="category-image">
+                <div class="category-overlay">
+                    <div class="category-label">НОВЫЕ ПОСТУПЛЕНИЯ</div>
+                    <div class="category-title">КОМПАКТНЫЕ</div>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="images/accessories-category.png" alt="Аксессуары" class="category-image">
+                <div class="category-overlay">
+                    <div class="category-label">РОСКОШЬ И СТИЛЬ</div>
+                    <div class="category-title">АКСЕССУАРЫ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Items -->
+    <section class="featured-section" id="featured">
+        <div class="section-header">
+            <h2>Популярные автомобили</h2>
+            <p>Выбирайте из автомобилей, представленных на этой неделе</p>
+        </div>
+
+        <div class="products-grid">
+            <article class="product-card">
+                <div class="product-image-container">
+                    <img src="images/porsche-cayenne.png" alt="Porsche Cayenne" class="product-image">
+                    <div class="add-to-cart-overlay">
+                        <button class="add-cart-btn">🛒 Добавить</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Porsche Cayenne</div>
+                    <div class="product-price">6 500 000 ₽</div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-container">
+                    <img src="images/range-rover-sport.png" alt="Range Rover Sport" class="product-image">
+                    <div class="add-to-cart-overlay">
+                        <button class="add-cart-btn">🛒 Добавить</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Range Rover Sport</div>
+                    <div class="product-price">7 200 000 ₽</div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-container">
+                    <img src="images/bmw-x5.png" alt="BMW X5" class="product-image">
+                    <div class="add-to-cart-overlay">
+                        <button class="add-cart-btn">🛒 Добавить</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">BMW X5 2023</div>
+                    <div class="product-price">4 500 000 ₽</div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-container">
+                    <img src="images/mercedes-c-class.png" alt="Mercedes C-Class" class="product-image">
+                    <div class="add-to-cart-overlay">
+                        <button class="add-cart-btn">🛒 Добавить</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Mercedes-Benz C-Class</div>
+                    <div class="product-price">3 800 000 ₽</div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-container">
+                    <img src="images/audi-a6.png" alt="Audi A6" class="product-image">
+                    <div class="add-to-cart-overlay">
+                        <button class="add-cart-btn">🛒 Добавить</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Audi A6</div>
+                    <div class="product-price">3 200 000 ₽</div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-container">
+                    <img src="images/toyota-camry.png" alt="Toyota Camry" class="product-image">
+                    <div class="add-to-cart-overlay">
+                        <button class="add-cart-btn">🛒 Добавить</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Toyota Camry</div>
+                    <div class="product-price">2 800 000 ₽</div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-container">
+                    <img src="images/lexus-es.png" alt="Lexus ES" class="product-image">
+                    <div class="add-to-cart-overlay">
+                        <button class="add-cart-btn">🛒 Добавить</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Lexus ES</div>
+                    <div class="product-price">4 100 000 ₽</div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-container">
+                    <img src="images/volkswagen-tiguan.png" alt="Volkswagen Tiguan" class="product-image">
+                    <div class="add-to-cart-overlay">
+                        <button class="add-cart-btn">🛒 Добавить</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Volkswagen Tiguan</div>
+                    <div class="product-price">2 500 000 ₽</div>
+                </div>
+            </article>
+        </div>
+
+        <a href="#" class="view-all-btn">Смотреть все автомобили →</a>
+    </section>
+
+    <!-- Promo Banner -->
+    <section class="promo-banner">
+        <div class="promo-content">
+            <div class="promo-text">
+                <h2><span class="offer">30% СКИДКА</span><br>НА ВНЕДОРОЖНИКИ</h2>
+            </div>
+            <div class="promo-features">
+                <div class="feature-item">
+                    <img src="images/delivery-icon.png" alt="Доставка" class="feature-icon">
+                    <div class="feature-text">
+                        <h3>Бесплатная доставка</h3>
+                        <p>Доставка по всей России. Быстро и надёжно.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="images/discount-icon.png" alt="Скидки" class="feature-icon">
+                    <div class="feature-text">
+                        <h3>Скидки и акции</h3>
+                        <p>Специальные предложения каждую неделю.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="images/quality-icon.png" alt="Качество" class="feature-icon">
+                    <div class="feature-text">
+                        <h3>Гарантия качества</h3>
+                        <p>Все автомобили проверены и сертифицированы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>ПОДПИСАТЬСЯ</h2>
+            <p>НА НАШУ РАССЫЛКУ И АКЦИИ</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Введите ваш Email" required>
+                <button type="submit" class="subscribe-btn">Подписаться</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">🚗 AutoShop</div>
+                <p class="footer-description">
+                    Эксклюзивные автомобили премиум-класса. Мы предлагаем широкий выбор автомобилей с гарантией качества и надёжным сервисом.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Компания</h3>
+                <ul class="footer-links">
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Как это работает</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Информация</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Условия и положения</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Как купить</a></li>
+                    <li><a href="#">Как продать</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Категории</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Легковые</a></li>
+                    <li><a href="#">Внедорожники</a></li>
+                    <li><a href="#">Компактные</a></li>
+                    <li><a href="#">Премиум</a></li>
+                    <li><a href="#">Все категории</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 AutoShop. Все права защищены. Телефон: +7 (495) 123-45-67 | Email: info@autoshop.ru</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
